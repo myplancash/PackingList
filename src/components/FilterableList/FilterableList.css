@@ -1,0 +1,42 @@
+/* FilterableList.css */
+.filterable-list-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Style for SearchBar */
+/* Assuming .search-bar-input is a class for the input element in your SearchBar component */
+.search-bar-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.search-bar-input:focus {
+  border-color: #007bff;
+}
+
+/* Style for List */
+/* Assuming .list-item is a class for each item in your List component */
+.list-item {
+  padding: 10px;
+  margin: 5px;
+  background-color: #f9f9f9;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.list-item:hover {
+  background-color: #e0e0e0;
+}

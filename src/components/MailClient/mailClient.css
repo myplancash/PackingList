@@ -1,0 +1,29 @@
+/* MailClient.css */
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+ul {
+  padding: 0;
+}
+
+/* Letter styles (reuse the styles from the previous response) */
+/* ... */
+
+/* Button styles (reuse the styles from the previous response) */
+/* ... */
